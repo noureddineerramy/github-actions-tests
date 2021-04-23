@@ -27,6 +27,7 @@ jobs:
         with:
           image: nournour47/demoapp
           registry: docker.io
+          tags: v1, latest
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       
