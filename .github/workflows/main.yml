@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Use the value
           run: |
-            echo "$GITHUB_SHA # This will output 'yellow'
+            echo "$GITHUB_SHA # This will output 'yellow'"
 
